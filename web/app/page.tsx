@@ -9,16 +9,18 @@ export default function Home() {
           Find<span className="text-yellow-500">N’</span>Dine
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          Discover the best dining spots curated just for you.
+          From hidden gems to trending favorites, FindN’Dine uses AI-powered
+          recommendations and real-time updates to help you decide where to eat,
+          faster and smarter.
         </p>
         <div className="flex gap-4 justify-center">
           <Button
             size="lg"
-            className="bg-yellow-500 hover:bg-yellow-600 text-white"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white cursor-pointer"
           >
             Get Started
           </Button>
-          <Button size="lg" variant="outline">
+          <Button size="lg" variant="outline" className="cursor-pointer">
             Learn More
           </Button>
         </div>
