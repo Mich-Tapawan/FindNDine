@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/landing-page/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "FindN'Dine",
     images: [
       {
-        url: "/og-image.png", // add later in public/
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "FindN'Dine Landing Page",
@@ -59,6 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Navbar />
         {children}
       </body>
     </html>
