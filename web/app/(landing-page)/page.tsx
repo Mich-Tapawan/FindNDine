@@ -1,8 +1,8 @@
 "use client";
 
-import Features from "@/components/landing-page/Features";
-import Footer from "@/components/landing-page/Footer";
-import Testimonials from "@/components/landing-page/Testimonials";
+import Features from "@/components/pages/landing-page/Features";
+import Footer from "@/components/pages/landing-page/Footer";
+import Testimonials from "@/components/pages/landing-page/Testimonials";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
